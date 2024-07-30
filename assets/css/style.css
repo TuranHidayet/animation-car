@@ -1,0 +1,452 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+header {
+    height: 100px;
+    position: sticky;
+    top: 0px;
+    z-index: 130;
+    background-color: #fff;
+}
+
+.header-top {
+    margin-top: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.header-container .Large a {
+    font-size: 32px;
+    color: black;
+}
+
+.header-container .subscribe {
+    font-size: larger;
+    color: grey;
+}
+
+.header-container button {
+    margin-left: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: gray;
+
+}
+
+.header-container button:hover {
+    color: white;
+    background-color: rgb(97, 96, 96);
+    transition: ease-in-out 0.5s;
+}
+
+.line {
+    width: 100%;
+    height: 1.5px;
+    background-color: gray;
+    margin-top: 15px;
+    opacity: 0.3;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: gray;
+}
+
+.navbar ul li a {
+    color: gray;
+    font-size: 18px;
+}
+
+.main {
+    width: 80%;
+    height: 330px;
+    margin: 0px auto;
+    background-color: #343a40 !important;
+    border-radius: 5px;
+}
+
+.main-top {
+    width: 500px;
+    padding: 40px 40px;
+    line-height: 2 px;
+    margin-top: 20px;
+}
+
+.main-top h1,
+p,
+a {
+    color: #fff;
+}
+
+
+.main-top h1 {
+    font-size: 3rem;
+    font-style: italic;
+}
+
+.main-top p {
+    margin-top: 30px;
+    font-size: 1.25rem;
+}
+
+.main-top h6 {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.main2 {
+    width: 80%;
+    height: 280px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.main2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, .1);
+    box-shadow: .25rem .75rem rgba(0, 0, 0, .09)
+}
+
+.card1 {
+    padding: 20px 15px;
+    line-height: 2rem;
+}
+
+.card1 h4 {
+    color: blue;
+}
+
+.card2 h4 {
+    color: rgb(5, 131, 5);
+}
+
+.card2 {
+    padding: 20px 15px;
+    line-height: 2rem;
+}
+
+.card1 p,
+a {
+    color: black;
+    line-height: 1rem;
+}
+
+.card2 p,
+a {
+    color: black;
+    line-height: 1rem;
+}
+
+.card2 h6 {
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.card1 h6 {
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.card1 p {
+    margin-top: 30px;
+}
+
+.card2 p {
+    margin-top: 30px;
+}
+
+.main-top a {
+    color: #fff;
+}
+
+
+.container-area {
+    width: 80%;
+    /* height: 2000px; */
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.area {
+    width: 900px;
+}
+
+.area h2 {
+    margin: 40px 0px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.area a {
+    color: blue;
+}
+
+.area p {
+    color: black;
+    margin-top: 20px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.area h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.area h6 {
+    font-size: 18px;
+    color: gray;
+    word-spacing: 2px;
+}
+
+.line3 {
+    width: 100%;
+    height: 1.5px;
+    background-color: gray;
+    margin-top: 5px;
+    opacity: 0.3;
+    margin-bottom: 20px;
+}
+
+.area ol li {
+
+    list-style-type: decimal;
+    margin-left: 50px;
+}
+
+.area ul li {
+    list-style-type: disc;
+    margin-left: 50px;
+}
+
+.aside {
+    width: 400px;
+    height: 750px;
+    margin-top: 50px;
+    margin-left: 10px;
+    position: sticky;
+    top: 0;
+    right: 0px;
+}
+
+.aside p {
+    color: black;
+}
+
+.container-area {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.aside1 {
+    box-shadow: .25rem .75rem rgba(0, 0, 0, .09);
+    margin-bottom: 40px;
+    line-height: 2 rem;
+}
+
+.aside1 h3 {
+    margin-bottom: 10px;
+}
+
+.aside2 ol {
+    line-height: 1.8rem;
+}
+
+.aside2 h3 {
+    margin-bottom: 15px;
+}
+
+.aside2 ol a {
+    color: rgb(38, 120, 212);
+}
+
+.buttons {
+    display: flex;
+    column-gap: 5px;
+    margin-top: 50px;
+}
+
+.buttons button {
+    cursor: pointer;
+    width: 60px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    color: gray;
+}
+
+.ftr {
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 90px;
+    height: 100px;
+    padding: 2.5rem 2rem;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+
+.ftr {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-bottom: 40px;
+}
+
+.ftr p a {
+    color: rgb(28, 83, 185);
+}
+
+.ftr p {
+    text-align: center;
+    color: black;
+
+}
+
+@media screen and (max-width: 960px) {
+html{
+    width: 100%;
+}
+    .main{
+    width: 100%;
+    padding: 0px 20px;
+}
+header{ 
+    width: 100%;
+}
+.container{
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.navbar{
+    column-gap: 5px;
+}
+.header-container{
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.header-battom{
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.area{
+    width: 750px;
+}
+.main{
+    width: 750px;
+    padding: opx 20px;
+} 
+.container-area{
+    width: 750px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.ftr{
+    width: 100%;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+html {
+    width: 100%;
+}
+.container{
+    width: 100%;
+    padding: 0px 20px;
+}
+.main{
+    width: 100%;
+    padding: 0px 20px;
+}
+.header-container{
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.battom-container{
+    width: 100%;
+}
+
+.navbar{
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.header-battom .navbar ul li{
+    width: 100%;
+    padding: 0px 20px;
+    column-gap: 5px;
+}
+.main2{
+    width: 100%;
+}
+
+
+
+.header-battom{
+    width: 100%;
+}
+.container-area{
+    width: 650px;
+    font-size: 12px;
+    padding: 0px 20px;
+}
+
+.area{
+    width: 650px;
+}
+
+.ftr{
+    width: 100%;
+}
+}
+
+
+@media screen and (max-width: 576px) {
+.main{
+    width: 100%;
+    padding: 0px 20px;
+}
+}
+
+
