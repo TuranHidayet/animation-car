@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.road{
+    background-image: url(/assets/image/360_F_292571491_R01YTzyvuceDL3UujKe7z38awUeUwtnD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.road{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.car-body{
+    width: 450px;
+    height: 150px;
+}
+
+.wheel1, .wheel2{
+    width: 60px;
+    height: 60px;
+}
+.car{
+    position: absolute;
+    top: 350px;
+    left: 850px;
+    transform: translateX(0%);
+    animation: move-car 12s linear ;
+    z-index: 10;
+}
+
+.car .wheel1, .car .wheel2{
+    animation: rotate-wheels 12s linear infinite;
+
+}
+
+.wheel1{
+    position: absolute;
+    right: 78px;
+    top: 80px;
+
+}
+
+.wheel2{
+    position: absolute;
+    right: 312px;
+    top: 80px;
+}
+
+.light-body{
+    width: 200px;
+    height: 250px;
+}
+
+.light-body{
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    z-index: 5;
+}
+
+.light{
+    position: absolute;
+    left: 290px;
+    top: 194px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    z-index: 6;
+            
+}
+.red-light{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #555;
+}
+
+.yellow-light{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #555;
+}
+
+.green-light{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #555;
+}
+
+.red-light {
+    animation: red-light 12s infinite;
+}
+
+.yellow-light {
+    animation: yellow-light 12s infinite;
+}
+
+.green-light {
+    animation: green-light 12s infinite;
+}
+
+.motor-body{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 350px;
+    left: 450px;
+    z-index: 2;
+}
+
+.man{
+    position: absolute;
+    top: 310px;
+    left: 500px;
+    width: 150px;
+    height: 120px;
+}
+
+.airplane{
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    animation: move-airplane 12s linear;
+}
+
+
+/* .asmaa{
+    position: absolute;
+    width: 130px;
+    height: 100px;
+    top: 315px;
+    left: 460px;
+    z-index: 3;
+    transform: rotateY(30deg);
+} */
+
+@keyframes red-light {
+    0%, 30% {
+        background-color: red;
+    }
+    30%, 40%{
+        background-color: red;
+    }
+    25%{
+        background-color: red;
+    }
+    30%{
+        background-color: #555;
+    }
+    33%{
+        background-color: red;
+    }
+    35%{
+        background-color: #555;
+    }
+    40%{
+        background-color: red;
+    }
+    100% {
+        background-color: #555;
+    }
+}
+
+@keyframes yellow-light {
+    0%, 45%, 47% {
+        background-color: #555;
+    }
+    47%, 60% {
+        background-color: yellow;
+    }
+    70%, 100% {
+        background-color: #555;
+    }
+}
+
+@keyframes green-light {
+    0%, 60%, 70% {
+        background-color: #555;
+    }
+    70%, 100% {
+        background-color: rgb(15, 192, 15);
+    }
+}
+
+
+
+
+@keyframes rotate-wheels {
+    0% {
+        transform: rotate(0deg); 
+    }
+    30% {
+        transform: rotate(-360deg); 
+    }
+    70% {
+        transform: rotate(-360deg); 
+    }
+    100% {
+        transform: rotate(-720deg); 
+    }
+}
+
+@keyframes move-car {
+0% {
+        transform: translateX(0);
+}
+    30% {
+        transform: translateX(-600px);
+    }
+    70% {
+        transform: translateX(-600px);
+    }
+    100% {
+        transform: translateX(-1400px); 
+    }
+}
+
+@keyframes move-airplane{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(1200px);
+    }
+}
